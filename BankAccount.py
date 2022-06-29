@@ -10,6 +10,7 @@
 # (When this method is called, the balance amount should reduce 5%)
 # Create a display() method to display account details.
 class BankAccount:
+    
     def __init__(self,accountNumber,name,balance):
         self.accountNumber = accountNumber
         self.name = name

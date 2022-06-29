@@ -10,6 +10,7 @@
 # Use __dict__ method to see attributes
 
 class School:
+    
     students = []
     def __init__(self,capacity):
         self.capacity = capacity

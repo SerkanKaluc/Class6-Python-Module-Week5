@@ -5,6 +5,7 @@
 # Make it such that it displays the name, age and section of an object created via the Student class.
 # Create Person and Student objects and then test the display() method for both.
 class Person:
+
     def __init__(self,name,age):
         self.name = name
         self.age = age
@@ -14,6 +15,7 @@ class Person:
         print('Age of the Person is',self.age)
 
 class Student(Person):
+    
     def __init__(self,name,age,section):
         super().__init__(name,age)
         self.section = section
